@@ -25,8 +25,8 @@ def install_firebase(path)
   run_command("chmod +rx #{path}/firebase")
 end
 
-web_path = get_env_variable('AC_FIREBASE_WEB_PATH')
-raise 'Web path is empty' if web_path.nil?
+web_path = get_env_variable('AC_FIREBASE_PROJECT_PATH')
+raise 'Project path is empty' if web_path.nil?
 
 token = get_env_variable('AC_FIREBASE_TOKEN')
 service_account = get_env_variable('GOOGLE_APPLICATION_CREDENTIALS')

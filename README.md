@@ -5,7 +5,7 @@ Deploy your web applications to Firebase Hosting
 ## Required Inputs
 
 - `AC_FIREBASE_VERSION`: Firebase Version. Firebase version to be used. Enter v11.11.0 for a specific version.
-- `AC_FIREBASE_WEB_PATH`: Path of the web application. Full path of the web application. Don't change if you're using Flutter Web Build.
+- `AC_FIREBASE_PROJECT_PATH`: Project Directory. The directory containing your `firebase.json` file.
 
 ## Optional Inputs
 
